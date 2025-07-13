@@ -21,7 +21,10 @@ from src.tools.function.validator.fix_mcp_tools import fix_mcp_tool
 
 # Get absolute paths for current, prompts, logs, and MCP directories
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROMPTS_DIR = os.path.join(CURRENT_DIR, "prompts")
+
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(CURRENT_DIR)))
+PROMPTS_DIR = os.path.join(PROJECT_ROOT, "src", "prompts")
+
 LOG_DIR = os.path.join(CURRENT_DIR, "logs")
 MCP_PATH = os.path.join(CURRENT_DIR, "mcp_box")
 
