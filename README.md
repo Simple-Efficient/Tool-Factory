@@ -105,9 +105,9 @@ We're looking for collaborators to help us revolutionize ToolFactory. If you hav
 
 ## Contributors
 - [Zhongni Hou](https://github.com/houzhongni) - LLM Algorithm Engineer @ Meituan
-- [Hannan Bai](https://github.com/dqtcyh) - Algorithm Intern @ Meituan
-- [Xiaokun Guan](https://github.com/biscuit279) - Algorithm Engineer @ Meituan
-- [Yufei Zhang](https://github.com/zyf001) - Algorithm Engineer @ Meituan
-- [Xihao Liang](https://github.com/liangxh) - Algorithm Engineer @ Meituan
-- [Qun Liao](https://github.com/robink87) - Algorithm Engineer @ Meituan
-- [Guojun Yin](https://github.com/gjyin) - Algorithm Engineer @ Meituan
+- [Hannan Bai](https://github.com/dqtcyh) - LLM Algorithm Intern @ Meituan
+- [Xiaokun Guan](https://github.com/biscuit279) - LLM Algorithm Engineer @ Meituan
+- [Yufei Zhang](https://github.com/zyf001) - LLM Algorithm Engineer @ Meituan
+- [Xihao Liang](https://github.com/liangxh) - LLM Algorithm Engineer @ Meituan
+- [Qun Liao](https://github.com/robink87) - LLM Algorithm Engineer @ Meituan
+- [Guojun Yin](https://github.com/gjyin) - LLM Algorithm Engineer @ Meituan
