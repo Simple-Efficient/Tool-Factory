@@ -136,6 +136,6 @@ if __name__ == "__main__":
 
     # Build audio recognition tool using planner agent
     # audio_file_path = args.audio_file_path
-    audio_file_path = "/Users/baihannan/repository/query_understand/20250606/voice_001.wav"
+    audio_file_path = "query_understand/voice_001.wav"
     user_input = f"Please build an audio recognition tool using the tiny model from https://github.com/openai/whisper.git, and recognize {audio_file_path}"
     run_demo_loop(planner_agent, debug=True, user_input=user_input, log_dir=LOG_DIR)
