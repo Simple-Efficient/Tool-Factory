@@ -4,7 +4,7 @@ ToolFactory is a modular, extensible, lightweight multi-agent tool development s
 
 ## What's New
 
-**[2025/6/20]** First release of ToolFactory with support for dynamic tool creation and validation.
+**🔥 [2025/6/20]** First release of ToolFactory with support for dynamic tool creation and validation.
 
 ## Contents
 
@@ -14,7 +14,7 @@ ToolFactory is a modular, extensible, lightweight multi-agent tool development s
 - [Customizing Your System](#4-customizing-your-system)
 - [Inspiration and Acknowledgments](#5-inspiration-and-acknowledgments)
 
-## 1. Features
+## Features
 
 ### Efficient Workflow Automation
 
@@ -32,38 +32,38 @@ Self-evolution capability enables the system to improve its functionality throug
 
 The tool validation mechanism ensures that each tool in the system can be correctly understood and effectively used by agents. The system includes specialized validation agents that systematically test tool functionality, ensuring that tool descriptions are clear, accurate, and contain the necessary usage parameters and constraints, significantly improving tool usability and task completion efficiency.
 
-## 2. System Architecture
+## System Architecture
 
 ToolFactory employs an orchestrator-worker architecture. The Planner Agent serves as the central commander, precisely coordinating the overall workflow and intelligently assigning specialized tasks to various expert sub-agents. These specialized agents can operate in parallel, optimizing resource utilization and significantly enhancing system response speed and processing efficiency.
 
-### 2.1 Planner Agent
+### 🧠 Planner Agent
 
 - **Intent Recognition**: Parse user requirements and determine needed tools
 - **Task Decomposition**: Plan tool development and utilization strategies
 - **Resource Coordination**: Assign tasks to specialized sub-agents
 - **Result Optimization**: Improve output quality through multiple iterations
 
-### 2.2 Searcher Agent
+### 🔍 Searcher Agent
 
 - **Intelligent Search**: Perform joint searches across multiple platforms, dynamically optimizing search strategies
 - **Information Integration**: Obtain relevant discussions and solutions from developer communities
 - **Resource Evaluation**: Filter high-quality tools and information that meet requirements
 
-### 2.3 Developer Agent
+### 🔧 Developer Agent
 
 - **Resource Management**: Retrieve, evaluate, and prioritize available tool libraries
 - **Environment Building**: Create isolated environments, resolve dependency conflicts
 - **Standardized Integration**: Convert tools into standard components compliant with the MCP protocol
 
-### 2.4 Validator Agent
+### 🛡️ Validator Agent
 
 - **Compliance Validation**: Ensure interface conformance to specifications and correct parameter types
 - **Functional Testing**: Perform comprehensive edge case testing
 - **Consistency Check**: Verify that implemented functionality matches descriptions
 
-## 3. Getting Started
+## Getting Started
 
-### 3.1 Installation
+### Installation
 
 ```bash
 # Create and activate a Python 3.9 virtual environment
@@ -73,11 +73,11 @@ conda create -n your_env python=3.10
 pip install -r requirements.txt
 ```
 
-### 3.2 Environment Variable Setup
+###  Environment Setup
 
-Configure LLM parameters in `src/.env` 
+Configure LLM/Tools parameters in `src/.env` 
 
-## 4. Customizing Your System
+## Customizing Your System
 
 We provide several examples in the `examples` directory. To customize your personalized system, you should:
 
@@ -94,7 +94,7 @@ cd ToolFactory
 python3 -m examples.audio_recognition.agent
 ```
 
-## 5. Inspiration and Acknowledgments
+## Inspiration and Acknowledgments
 
 This project draws inspiration from the Alita project pioneered by CharlesQ9, and the Claude multi-agent research system developed by Anthropic.
 
@@ -105,6 +105,14 @@ This project draws inspiration from the Alita project pioneered by CharlesQ9, an
 
 We sincerely thank the developers and contributors of the above works, as these cutting-edge projects have provided valuable ideas and technical foundations for ToolFactory.
 
+## 🌟 Join Us!
+
+We're looking for collaborators to help us revolutionize ToolFactory. If you have any questions, encounter bugs, or would like to collaborate on development, please feel free to contact us!
+
+1. Submit an issue directly on GitHub.
+2. Help refine, optimize and expand our framework.
+3. Contact us via email at zhangyufei08@meituan.com or gjyin@outlook.com.
+
 ## Contributors
 - [Zhongni Hou](https://github.com/houzhongni) - LLM Algorithm Engineer @ Meituan
 - [Hannan Bai](https://github.com/dqtcyh) - Algorithm Intern @ Meituan
@@ -113,11 +121,3 @@ We sincerely thank the developers and contributors of the above works, as these 
 - [Xihao Liang](https://github.com/liangxh) - Algorithm Engineer @ Meituan
 - [Qun Liao](https://github.com/robink87) - Algorithm Engineer @ Meituan
 - [Guojun Yin](https://github.com/gjyin) - Algorithm Engineer @ Meituan
-
-## Join Us!
-
-We're looking for collaborators to help us revolutionize ToolFactory. If you have any questions, encounter bugs, or would like to collaborate on development, please feel free to contact us!
-
-1. Submit an issue directly on GitHub.
-2. Help refine, optimize and expand our framework.
-3. Contact us via email at chaijiajun@meituan.com or gjyin@outlook.com.
