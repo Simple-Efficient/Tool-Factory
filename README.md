@@ -53,7 +53,7 @@ ToolFactory employs an orchestrator-worker architecture. The Planner Agent serve
 - **Functional Testing**: Perform comprehensive edge case testing
 - **Consistency Check**: Verify that implemented functionality matches descriptions
 
-## Getting Started
+## Quick Start
 
 1. Set up the Python environment:
 
@@ -67,15 +67,13 @@ pip install -r requirements.txt
 
 2. Configure LLM/Tools parameters in `src/.env` 
 
-## Customizing Your System
+3. Define the basic tools and required; 
 
-We provide several examples in the `examples` directory. To customize your personalized system, you should:
+4. Write configuration file for each agent;
 
-1. Create a task directory within `examples`;
-2. Write configuration files for your agents;
-3. Define the basic tools required;
-4. Specify agent execution and collaboration patterns;
-5. Pose a question—ToolFactory will handle it for you.
+5. Specify agent execution and collaboration patterns;
+
+6. Pose a question—ToolFactory will handle it for you.
 
 We provide a clear and concise example in the `examples` directory to demonstrate the practical application capabilities of the ToolFactory system. Using speech recognition as an example, this sample demonstrates how the system recognizes content in audio files. The command to run it is:
 
