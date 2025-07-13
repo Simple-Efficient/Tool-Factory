@@ -6,14 +6,6 @@ ToolFactory is a modular, extensible, lightweight multi-agent tool development s
 
 **🔥 [2025/6/20]** First release of ToolFactory with support for dynamic tool creation and validation.
 
-## Contents
-
-- [Features](#1-features)
-- [System Architecture](#2-system-architecture)
-- [Getting Started](#3-getting-started)
-- [Customizing Your System](#4-customizing-your-system)
-- [Inspiration and Acknowledgments](#5-inspiration-and-acknowledgments)
-
 ## Features
 
 ### Efficient Workflow Automation
