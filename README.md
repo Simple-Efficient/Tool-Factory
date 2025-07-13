@@ -114,6 +114,10 @@ We sincerely thank the developers and contributors of the above works, as these 
 - [Qun Liao](https://github.com/robink87) - Algorithm Engineer @ Meituan
 - [Guojun Yin](https://github.com/gjyin) - Algorithm Engineer @ Meituan
 
+## Join Us!
 
-### Contact
-**ToolFactory Team**: zhangyufei08@meituan.com or gjyin@outlook.com.
+We're looking for collaborators to help us revolutionize ToolFactory. If you have any questions, encounter bugs, or would like to collaborate on development, please feel free to contact us!
+
+1. Submit an issue directly on GitHub.
+2. Help refine, optimize and expand our framework.
+3. Contact us via email at chaijiajun@meituan.com or gjyin@outlook.com.
