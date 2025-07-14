@@ -105,7 +105,7 @@ We're looking for collaborators to help us revolutionize ToolFactory. If you hav
 
 We extend our heartfelt gratitude to all contributors who have made this project possible.
 
-- [Guojun Yin](https://github.com/gjyin) - LLM Algorithm Engineer @ Meituan
+- [Guojun Yin](https://github.com/gjyin) - Senior Reseacher @ Meituan
 - [Hannan Bai](https://github.com/dqtcyh) - LLM Algorithm Intern @ Meituan
 - [Qun Liao](https://github.com/robink87) - LLM Algorithm Engineer @ Meituan
 - [Xiaokun Guan](https://github.com/biscuit279) - LLM Algorithm Engineer @ Meituan
