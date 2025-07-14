@@ -57,19 +57,19 @@ ToolFactory employs an orchestrator-worker architecture. The Planner Agent serve
 
 1. Set up the Python environment:
 
-```bash
-# Create and activate a Python 3.9 virtual environment
-conda create -n your_env python=3.10 
+    ```bash
+    # Create and activate a Python 3.9 virtual environment
+    conda create -n your_env python=3.10 
 
-# Install dependencies
-pip install -r requirements.txt
-```
+    # Install dependencies
+    pip install -r requirements.txt
+    ```
 
 2. Configure LLM/Tools parameters in `src/.env` 
 
-3. Define the basic tools and required; 
+3. Define the basic tools and required in `src/tools`; 
 
-4. Write configuration file for each agent;
+4. Modify prompt files in `src/prompts`; 
 
 5. Specify agent execution and collaboration patterns;
 
