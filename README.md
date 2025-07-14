@@ -103,7 +103,7 @@ We're looking for collaborators to help us revolutionize ToolFactory. If you hav
 
 ## Contributors
 
-We are grateful to all contributors who have made this project possible. Our team consists of LLM Algorithm Engineers and Interns from Meituan. 
+We extend our heartfelt gratitude to all contributors who have made this project possible.
 
 - [Guojun Yin](https://github.com/gjyin) - LLM Algorithm Engineer @ Meituan
 - [Hannan Bai](https://github.com/dqtcyh) - LLM Algorithm Intern @ Meituan
@@ -113,4 +113,4 @@ We are grateful to all contributors who have made this project possible. Our tea
 - [Yufei Zhang](https://github.com/zyf001) - LLM Algorithm Engineer @ Meituan
 - [Zhongni Hou](https://github.com/houzhongni) - LLM Algorithm Engineer @ Meituan
 
-All contributors are listed in alphabetical order by first name.
+Contributors are listed in alphabetical order by first name.
