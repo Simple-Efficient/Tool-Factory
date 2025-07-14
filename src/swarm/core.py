@@ -11,15 +11,15 @@ from dotenv import load_dotenv
 from openai.types.chat import ChatCompletionMessage, ChatCompletionMessageToolCall
 from openai.types.chat.chat_completion_message_tool_call import Function
 
-from src.tool_factory.utils import function_to_json, debug_print, merge_chunk
-from src.tool_factory.types import Agent, AgentFunction, Response, Result
+from src.swarm.utils import function_to_json, debug_print, merge_chunk
+from src.swarm.types import Agent, AgentFunction, Response, Result
 
 
 load_dotenv()
 
 __CTX_VARS_NAME__ = "context_variables"
 
-class ToolFactory:
+class Swarm:
     def __init__(self, client=None):
         if not client:
             client = OpenAI(

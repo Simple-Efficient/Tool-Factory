@@ -5,26 +5,23 @@ import argparse
 
 from typing import List, Callable, Union, Optional
 
-from src.tool_factory import Agent
-from src.tool_factory.repl.repl import run_demo_loop
+from src.swarm import Agent
+from src.swarm.repl import run_demo_loop
 from src.utils.file_utils import load_yaml, read_file_content, write_file_content
-from src.tools.function.bing_search import bing_search
-from src.tools.function.python_repl import python_repl_tool
-from src.tools.function.github_search import github_search
-from src.tools.function.execute_shell_command import execute_shell_command
+from src.tools.bing_search import bing_search
+from src.tools.python_repl import python_repl_tool
+from src.tools.github_search import github_search
+from src.tools.execute_shell_command import execute_shell_command
 from src.utils.mcp_utils import load_mcp_tools, get_mcp_tools_schema
-from src.tools.function.validator.validate_tools import (
+from src.tools.validator.validate_tools import (
                                                        validate_mcp_availability_from_config,
                                                        check_mcp_format_from_config,
                                                        check_mcp_description_from_config)
-from src.tools.function.validator.fix_mcp_tools import fix_mcp_tool
+from src.tools.validator.fix_mcp_tools import fix_mcp_tool
 
 # Get absolute paths for current, prompts, logs, and MCP directories
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(CURRENT_DIR)))
-PROMPTS_DIR = os.path.join(PROJECT_ROOT, "src", "prompts")
-
+PROMPTS_DIR = "./src/prompts"
 LOG_DIR = os.path.join(CURRENT_DIR, "logs")
 MCP_PATH = os.path.join(CURRENT_DIR, "mcp_box")
 
@@ -139,6 +136,6 @@ if __name__ == "__main__":
 
     # Build audio recognition tool using planner agent
     # audio_file_path = args.audio_file_path
-    audio_file_path = "query_understand/voice_001.wav"
+    audio_file_path = os.path.join(CURRENT_DIR, "voice_001.wav")
     user_input = f"Please build an audio recognition tool using the tiny model from https://github.com/openai/whisper.git, and recognize {audio_file_path}"
     run_demo_loop(planner_agent, debug=True, user_input=user_input, log_dir=LOG_DIR)

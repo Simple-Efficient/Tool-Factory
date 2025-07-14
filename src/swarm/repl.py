@@ -4,7 +4,7 @@ import datetime
 import os
 import sys
 import re
-from src.tool_factory import ToolFactory
+from src.swarm import Swarm
 
 # Global variables for log file path and original stdout/stderr
 _current_log_file = None

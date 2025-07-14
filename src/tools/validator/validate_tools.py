@@ -3,7 +3,7 @@ import json
 
 from typing import Any, Dict, List
 from loguru import logger
-from graph_agent.utils.mcp_utils import _get_cached_callable_tools
+from src.utils.mcp_utils import _get_cached_callable_tools
 
 
 def validate_mcp_availability(mcp_tool, test_cases: List[Dict[str, Any]]) -> Dict[str, Any]:
